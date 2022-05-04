@@ -1,0 +1,59 @@
+header{
+    nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px 2px 20px rgba(57, 117, 222, 0.1);
+        .container{
+            width: 1300px;
+            margin: 0px auto;
+            .navbar{
+                
+                display: flex;
+                justify-content: space-between;
+                padding: 21px 0px;
+                align-items: center;
+
+                .logo{
+    
+                    align-items: center;
+                    .logo-text{
+                        font-size: 30px;
+                        font-weight: 700;
+                        letter-spacing: 1px;
+                        color: #012970;
+                    }
+                }
+    
+                
+                ul{
+                    gap: 30px;
+                }
+                .list-items{
+                    display: flex;
+                    font-weight: 700;
+                    a{
+                        color: #033189;
+                    }
+                    .chev{
+                        opacity: 50%;
+                    }
+                    a:not(.button):hover{
+                        color: #4154f1;
+                        transition: 0.3s;
+                    }
+                    .button{
+                        background-color: #4154f1;
+                        color: white;
+                        border-radius: 4px;
+                        padding: 9.5px 20px;
+                    }
+                    .button:hover{
+                        background-color: #5969f3;
+                    }
+                }
+            }
+        }
+    }
+}
